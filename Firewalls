@@ -1,0 +1,7 @@
+- Firewalls
+
+Fortigate:
+	
+2024-07-02T14:03:24.688291+01:00 host.subdomain.domain.nl logver=604152095 timestamp=1719925404 devname="FGate-DMZ-10_11" devid="FGT6HD3916801930" vd="root" date=2024-07-02 time=15:03:24 eventtime=1719925404624045325 tz="+0200" logid="0319013317" type="utm" subtype="webfilter" eventtype="urlmonitor" level="notice" policyid=362 sessionid=3129731586 srcip=123.456.789.012 srcport=54200 srcintf="DMZ_Wifi" srcintfrole="undefined" dstip=999.222.11.3 dstport=443 dstintf="DMZ extern" dstintfrole="undefined" proto=6 service="HTTPS" hostname="doh.opendns.com" profile="DOMAIN-WIFI-flow-based" action="passthrough" reqtype="direct" url="https://doh.opendns.com/" sentbyte=535 rcvdbyte=0 direction="outgoing" msg="URL has been visited" method="domain" cat=255 catdesc="Unknown"
+
+
